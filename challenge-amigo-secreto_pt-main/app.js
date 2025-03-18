@@ -38,7 +38,7 @@ function sortearAmigo() {
     resultadoLista.innerHTML = ""; 
 
     let item = document.createElement("li");
-    item.textContent = sorteado ;
+    item.textContent = sorteado;
 
     resultadoLista.appendChild(item);
 }
